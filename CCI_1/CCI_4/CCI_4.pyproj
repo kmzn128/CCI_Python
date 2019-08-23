@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9795127c-becf-45b1-b9b7-c7e05c6c8d95</ProjectGuid>
+    <ProjectGuid>2b69c554-e922-4306-b76b-c6d1fb36aee1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1_8.py</StartupFile>
+    <StartupFile>4_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CCI_1</Name>
-    <RootNamespace>CCI_1</RootNamespace>
+    <Name>CCI_4</Name>
+    <RootNamespace>CCI_4</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,18 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="1_1.py">
+    <Compile Include="4_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="1_1_2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="1_7.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="1_8.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="CCI_4.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
