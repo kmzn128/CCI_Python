@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9795127c-becf-45b1-b9b7-c7e05c6c8d95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1_8.py</StartupFile>
+    <StartupFile>1_5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1_4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1_5.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1_7.py">
