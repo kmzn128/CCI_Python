@@ -20,7 +20,7 @@ e.left = d
 e.right = f
 root.left = e
 root.right = b
-
+ 
 def check_bst(node):
     if(not node):
         return True
