@@ -24,9 +24,11 @@ class LinkedList:
             return
         prev = None
         curr = self.head
-        while(curr.data != data):
+        while((curr != None) and (curr.data != data) ):
             prev = curr
             curr = curr.next
+        if(curr == None):
+            return
         if(curr.data == data):
             prev.next = curr.next
         return
@@ -35,7 +37,7 @@ ll = LinkedList()
 ll.appendToTail(0)
 ll.appendToTail(1)
 ll.appendToTail(2)
-ll.remove(1)
+ll.remove(3)
 ll.appendToTail(3)
 ll.appendToTail(4)
     
