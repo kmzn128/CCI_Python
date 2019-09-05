@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2b69c554-e922-4306-b76b-c6d1fb36aee1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>4_5.py</StartupFile>
+    <StartupFile>4_11.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,15 @@
     <Compile Include="4_0.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="4_0_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_12.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="4_2.py">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +46,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="4_5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_8.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CCI_4.py" />
