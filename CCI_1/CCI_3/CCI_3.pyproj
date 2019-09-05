@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>76d70651-1348-4b52-beb6-66bf158fbebb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CCI_3.py</StartupFile>
+    <StartupFile>3_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="3_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3_2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CCI_3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
