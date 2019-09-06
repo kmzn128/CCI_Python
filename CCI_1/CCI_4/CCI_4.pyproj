@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2b69c554-e922-4306-b76b-c6d1fb36aee1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>4_11.py</StartupFile>
+    <StartupFile>4_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="4_0_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="4_11.py">
