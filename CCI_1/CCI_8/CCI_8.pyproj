@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf0edaa5-ca1e-40ee-b5fb-b0c86a3b1b55</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>8_4.py</StartupFile>
+    <StartupFile>8_4_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,7 +33,16 @@
     <Compile Include="8_4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="8_4_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_7.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CCI_8.py" />
+    <Compile Include="yield1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
