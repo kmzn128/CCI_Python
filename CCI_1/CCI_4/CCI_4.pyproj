@@ -60,6 +60,9 @@
     <Compile Include="4_8.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="4_a.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CCI_4.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

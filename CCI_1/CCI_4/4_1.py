@@ -24,7 +24,8 @@ root.right = e
 def traverse(node):
     if node is not None:
         yield from traverse(node.left)
-        yield node.item
+        yield node
         yield from traverse(node.right)
 
-print(traverse(root))
+for node in traverse(root):
+    print(node.item)
