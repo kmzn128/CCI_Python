@@ -9,7 +9,7 @@ ll.list_print()
 def dup():
     curr = ll.head
     dup_checker = set()
-    while(curr.next):
+    while(curr):
         if(curr.data not in dup_checker):
             dup_checker.add(curr.data)
         else:
@@ -20,7 +20,7 @@ def dup():
 def no_dup():
     curr = ll.head.next
     runner = ll.head
-    while(curr.next):
+    while(curr):
         while(runner.next is not curr.next):
             if(runner.data == curr.data):
                 ll.remove(curr.data)

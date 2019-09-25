@@ -79,6 +79,16 @@ class LinkedList:
             curr = curr.next
         li.append(str(curr.data))
         print("".join(li))
+        
+    def reverse(self):
+        prev = None
+        curr = self.head
+        while(curr):
+            next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
+        self.head = prev
 
 #ll = LinkedList()
 #def test_insert():

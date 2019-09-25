@@ -18,5 +18,17 @@ def find_route(_g, _from, _to, path):
                 return newpath
     return None
 
+# def find_all_route(_g, _from, _to, path):
+#     path += [_from]
+#     if(_from == _to):
+#         return [path]
+#     paths = []
+#     for node in _g[_from]:
+#         if node not in path:
+#             newpaths = find_all_route(_g, node, _to, path)
+#         for newpath in newpaths:
+#             paths.append(newpath)
+#     return paths
+
 result = find_route(graph, 'A', 'B', path=[])
 print(result)
