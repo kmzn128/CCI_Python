@@ -1,6 +1,7 @@
 import random
 
-li = [random.randint(0,100) for x in range(10)]
+#li = [random.randint(0,100) for x in range(10)]
+li = [8,4,3,7,6,5,2,1]
 
 print(li)
 
