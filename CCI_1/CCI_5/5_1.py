@@ -1,10 +1,11 @@
-from argparse import ArgumentError
+# from argparse import ArgumentError
 
 def count_bin_digit(bin_in):
-    st = str(bin(bin_in))
-    if(not st.startswith("0b")):
-        raise ArgumentError("not start 0b")
-    return len(list(st[2:]))
+#     st = str(bin(bin_in))
+#     if(not st.startswith("0b")):
+#         raise ArgumentError("not start 0b")
+#     return len(list(st[2:]))
+    return bin_in.bit_length()
 
 def insertion(in_num, inserted_num, index):
     in_digit = count_bin_digit(in_num)
