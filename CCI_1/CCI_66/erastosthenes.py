@@ -15,7 +15,7 @@ def erasto(n):
     out_list += _in_list
     return out_list
 
-print(erasto(1))
+print(erasto(30))
 
 
 
