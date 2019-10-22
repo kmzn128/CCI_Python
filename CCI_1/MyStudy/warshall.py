@@ -12,7 +12,7 @@ import math
 
 def warshall(g):
     le = len(g)
-    keys = g.keys()
+    keys = g.keys() 
     distances = collections.defaultdict(collections.defaultdict)
     for key in keys:
         row = collections.defaultdict(int)

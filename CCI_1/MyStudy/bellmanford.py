@@ -12,7 +12,7 @@ import math
 
 def bellman_ford(g,s):
     distance = collections.defaultdict(int)
-    for key in g:
+    for key in g: 
         distance[key] = math.inf
     distance[s] = 0
     for key in g:
